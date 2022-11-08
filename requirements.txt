@@ -1,5 +1,5 @@
-asgiref==3.2.7
-Django==3.0.5
+asgiref
+Django
 django-widget-tweaks==1.4.8
 Pillow==9.3.0
 pytz==2020.1
