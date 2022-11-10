@@ -27,7 +27,7 @@ SECRET_KEY = 'ls@!_(edqp*xy76kvbsst$07at(v^li*2&ew!^$8o(@wa6@a+$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://insuapp.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -135,6 +135,7 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 LOGIN_REDIRECT_URL='/afterlogin'
@@ -151,5 +152,5 @@ EMAIL_HOST_PASSWORD = 'loxefvqlixhjyfax' # host email password required
 # https://myaccount.google.com/lesssecureapps
 # otherwise you will get SMTPAuthenticationError at /contactus
 # this process is required because google blocks apps authentication by default
-EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messages sent from website
+EMAIL_RECEIVING_USER = ['icvc.site@gmail.com'] # email on which you will receive messages sent from website
 
